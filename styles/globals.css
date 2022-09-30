@@ -15,12 +15,23 @@ a {
   box-sizing: border-box;
 }
 
+input{
+  padding: 5px 10px;
+}
+
+button{
+  background-color: rgb(65, 65, 236);
+  padding: 10px;
+  border:none;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
-    color-scheme: dark;
+    /* color-scheme: dark; */
   }
   body {
-    color: white;
-    background: black;
   }
 }
